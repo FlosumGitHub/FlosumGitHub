@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AccountNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AA__c</fullName>
+        <externalId>false</externalId>
+        <label>AA</label>
+        <length>56</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountFlosum__c</fullName>
+        <externalId>false</externalId>
+        <label>AccountFlosum</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>AccountSource</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+                <value>
+                    <fullName>F</fullName>
+                    <default>false</default>
+                    <label>F</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>A</controllingFieldValue>
+                <controllingFieldValue>Advertisement</controllingFieldValue>
+                <valueName>B</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <controllingFieldValue>C</controllingFieldValue>
+                <controllingFieldValue>External Referral</controllingFieldValue>
+                <controllingFieldValue>Employee Referral</controllingFieldValue>
+                <valueName>C</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <controllingFieldValue>External Referral</controllingFieldValue>
+                <controllingFieldValue>Employee Referral</controllingFieldValue>
+                <valueName>D</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <controllingFieldValue>Public Relations</controllingFieldValue>
+                <controllingFieldValue>Employee Referral</controllingFieldValue>
+                <valueName>F</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Employee Referral</controllingFieldValue>
+                <valueName>E</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>
